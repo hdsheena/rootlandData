@@ -1,0 +1,36 @@
+{
+  "project_info": {
+    "project_number": "806212529121",
+    "project_id": "root-land-47683",
+    "storage_bucket": "root-land-47683.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806212529121:ios:ce14a56abbb7d72dae00a0",
+        "android_client_info": {
+          "package_name": "com.secondleap.rootland"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806212529121-l9b1hmdv5ckrjah9hsi6t9n3ogofo8hk.apps.googleusercontent.com"
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2vugSVJ_WmB9dXupHDK5YaTU1zW77sUg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

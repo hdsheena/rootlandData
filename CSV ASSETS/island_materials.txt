@@ -1,0 +1,11 @@
+|------------|-----------------------------------|-------------------------------------|---------------------------------|
+| Name       | Material                          | LockedMaterial                      | FadeOutMaterial                 |
+|------------|-----------------------------------|-------------------------------------|---------------------------------|
+| Default    | Terrain/TerrainSplatMap           | Terrain/TerrainSplatMapBarren       | Terrain/CorruptionFadeOut       |
+|------------|-----------------------------------|-------------------------------------|---------------------------------|
+| DeepForest | Terrain/TerrainSplatMapDeepForest | Terrain/TerrainSplatMapBarren       | Terrain/CorruptionFadeOut       |
+|------------|-----------------------------------|-------------------------------------|---------------------------------|
+| Fall       | Terrain/TerrainSplatMapFall       | Terrain/TerrainSplatMapBarrenFall   | Terrain/CorruptionFadeOutFall   |
+|------------|-----------------------------------|-------------------------------------|---------------------------------|
+| Winter     | Terrain/TerrainSplatMapWinter     | Terrain/TerrainSplatMapBarrenWinter | Terrain/CorruptionFadeOutWinter |
+|------------|-----------------------------------|-------------------------------------|---------------------------------|

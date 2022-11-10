@@ -1,0 +1,600 @@
+Name,en,Description,fi
+#,#,#,#
+# Animal names:,#,# For all animal names: they should sound like wild forest animal names and not pets or farm animals,#
+TID_ANIMAL_HOG,Hog,"“Wild Hog”, should sound more like a wild animal than a farm pig",Metsäsika
+TID_ANIMAL_BEAVER,Beaver,,Majava
+TID_ANIMAL_MOOSE,Moose,,Hirvi
+TID_ANIMAL_STORK,Stork,,Haikara
+TID_ANIMAL_STORK_CRANE,Crane,"Stork Nest level 4-6 animals are cranes, not storks",Kurki
+TID_ANIMAL_BEAR,Bear,,Karhu
+TID_ANIMAL_RABBIT,Rabbit,"Wild rabbit, ie. Not “bunny” or pet",Jänis
+TID_ANIMAL_SEAL,Seal,,Hylje
+TID_ANIMAL_WALRUS,Walrus,,Mursu
+TID_ANIMAL_SEA_LION,Sea Lion,,Merileijona
+TID_ANIMAL_CAT,Cat,,Metsäkissa
+TID_ANIMAL_MEGA_HOG,Mega Hog,Last Hog that the player gets is a huge version of the Hog,Mahtisika
+TID_ANIMAL_GROUSE,Grouse,"This is used a bit more broadly than in real life, willow ptargimans and capercaillies are also called “grouses”. This could also be something like “ground bird” or similar, but in English just “grouse” sounded the best",Metso
+TID_ANIMAL_GROUSE_PHEASANT,Pheasant,,Fasaani
+TID_ANIMAL_GROUSE_PEACOCK,Peacock,,Riikinkukko
+TID_ANIMAL_SQUIRREL,Squirrel,,Orava
+TID_ANIMAL_GUINEAPIG,Guinea Pig,,Marsu
+TID_ANIMAL_MALLARD,Mallard,,Sorsa
+TID_ANIMAL_FROG,Toad,"Toad, not frog (because it's huge)",Rupikonna
+#,#,,#
+# Building names:,#,,#
+TID_BUILDING_PORTAL,Portal,Player's “main building”,Portaali
+TID_BUILDING_STONE_BRIDGE,Stone Bridge,,Kivisilta
+TID_BUILDING_WOODEN_BRIDGE,Wooden Bridge,,Puusilta
+TID_BUILDING_FOOD_STORAGE,Food Storage,Building that stores food,Ruokavarasto
+TID_BUILDING_ISLAND_CENTER,Island,This is used in notifications when an island upgrade is ready,Saari
+TID_BUILDING_WELL,Well,,Kaivo
+#,#,,#
+# Shop Popup Window Texts,#,,#
+TID_SHOP_GEMS_TAB,Resources,Shop category tab: Resources (gems and gold),Resurssit
+TID_SHOP_ANIMAL_DIET,Diet:,"Info displayed in the “Critters” tab, describes what foods the animal eats",Ruoka:
+TID_SHOP_ITEM_LOCKED,Requires <number> Islands,Displayed on top of a shop item if the player doesn't yet have unlocked enough islands to buy it (<number> gets replaced with required island number),Tarvitset <number> Saarta
+TID_SHOP_ITEM_ALL_BUILT,Built,Displayed when a shop item has already been built and more can't be purchased,Rakennettu
+TID_SHOP_TITLE,Shop,Title of the Shop window,Kauppa
+TID_BUY_GOLD_CONFIRMATION,Buy <gold> gold?,Confirmation dialog when making a gold purchase (<gold> gets replaced by gold amount),Haluatko varmasti ostaa <gold> kultaa?
+TID_BUY_WATER_CONFIRMATION,Buy <water> water?,Confirmation dialog when making a water purchase (<water> gets replaces by water amount),Haluatko varmasti ostaa <water> vettä?
+TID_BUY_MISSING_GOLD_CONFIRMATION,Not enough Gold!\nBuy the missing <gold> Gold?,Confirmation dialog when trying to make an action that requires more resources than player has (<gold> gets replaced by gold amount),Tarvitset lisää kultaa! Osta puuttuvat <gold> kultaa?
+TID_BUY_MISSING_WATER_CONFIRMATION,Not enough Water!\nBuy the missing <water> Water?,Confirmation dialog when trying to make an action that requires more resources than player has (<water> gets replaced by gold amount),Tarvitset lisää vettä! Osta puuttuvat <water> vettä?
+TID_BUY_MISSING_WATER_AND_GOLD_CONFIRMATION,Not enough Resources!\nBuy the missing <water> Water and <gold> Gold?,"Confirmation dialog when trying to make an action that requires more resources than player has (<gold> gets replaced by gold amount, <water> gets replaced by water amount)",Tarvitset lisää kultaa ja vettä! Osta puuttuvat <gold> kultaa ja <water> vettä?
+TID_BUY_MORE_GEMS_POPUP,Not enough gems!,Information popup when trying to make an action that requires more gems than player has. There is an “Open Shop” button beneath this text.,Tarvitset lisää jalokiviä!
+TID_BUY_MORE_GEMS_SHOP_BUTTON,Enter Shop,,Avaa Kauppa
+TID_IAP_SPECIAL_OFFER,Special Offer!,,Erikoistarjous!
+TID_IAP_STARTER_PACK,Starter Pack,,Aloituspakkaus!
+TID_IAP_ROOT_PASS_30_DAYS,30 Day Root Pass,,30 Päivän Root Passi
+TID_IAP_EXTEND_ROOT_PASS_30_DAYS,Extend Root Pass by 30 Days,,Jatka Root Passia 30 Päivällä
+TID_SPECIAL_OFFER_SIGN,Limited Supply!,"Displayed on shop items that have a time limit, and can be only purchased once",Rajattu erä!
+TID_SHOP_OFFER_TIME,<time> remaining,"Displayed on expiring shop offerings, <time> gets replaced with from example “2h 15min”",<time> jäljellä
+TID_SHOP_CHARACTER_PURCHASED,Unlocked,Displayed on character and animal shop items that have already been purchased,Hankittu
+#,#,,#
+# Building popup window texts,#,These are texts that show up in a popup window that opens when tapping a building or unrepaired bridge,#
+TID_BUILDING_UPGRADE_LOCKED,Requires <number> Islands,Player doesn't have a enough islands to upgrade the building,Tarvitset <number> Saarta
+TID_BRIDGE_REPAIR_LOCKED,You haven't reached this bridge yet,Player hasn't repaired the previous bridges in order to repair this one,Et ole vielä saavuttanut tätä siltaa
+TID_ISLAND_CLAIM_LOCKED,You haven't reached this island yet,Player hasn't repaired the bridge to access this island,Et ole vielä saavuttanut tätä saarta
+TID_STORAGE_UPGRADED_CAPACITY,Storage Size +<increase>,"In storage building pop-ups, this displays what you get when you upgrade the building, <increase> gets replaced with how much more storage you get",Varaston koko +<increase>
+TID_BRIDGE_POPUP_UNLOCKS,Gain Access To:,"In an unrepaired bridge pop-up, this displays what resources (like food, wood, stone) you gain access to once the bridge is repaired",Pääset keräämään:
+TID_BUILDING_POPUP_NEXT_LEVEL,Next level:,Title for the bottom part of the building pop-up window (which displayed what you get at the next level of that building),Seuraava taso:
+TID_BUILDER_BUSY_POPUP,You can only build one building at a time. Speedup previous construction?,When trying to start an upgrade while you already have another upgrade in progress.,Voit rakentaa vain yhtä asiaa kerrallaan. Hoputetaanko edellinen rakennus?
+TID_BUTTON_UPGRADE,Upgrade,Start Upgrade of building,Päivitä
+TID_BUTTON_REPAIR,Repair,Start repair of bridge,Korjaa
+TID_BUTTON_SPEEDUP,Speedup,"Speed up the building, upgrading or repairing process with gems",Hoputa
+TID_BUTTON_FILL_PRODUCTION_BUILDING,Fill,Button that fills well or other production building.,Täytä
+TID_BUTTON_FILL_ISLAND,Fill Island,,Täytä Saari
+TID_BUTTON_FILL_ISLAND_SHORT,Fill,,Täytä
+TID_ISLAND_POPUP_INFO_FULL,Island is full!,Shown in island popup when the island is full.,Saari on täynnä!
+TID_ISLAND_POPUP_INFO_UPGRADING,Island fill not possible while upgrading!,Shown in island popup when island is upgrading.,Saaren täyttö ei mahdollista päivityksen aikana
+TID_ISLAND_POPUP_INFO_WATER_LOCKED,Collected resources spawn back over time!,Shown in island popup when water is not yet unlocked. Informs player about resource spawning.,Kerätyt resurssit kasvavat takaisin ajan myötä!
+TID_FOOD_STORAGE_POPUP_EMPTY,Storage is Empty,"When there are no items in the food storage, this gets shown in the “item view”",Tyhjä varasto!
+TID_FOOD_STORAGE_SELL_BUTTON,Sell,"In food storage pop-up, a button in each storage item to sell one",Myy
+TID_WELL_UPGRADED_CAPACITY,Max Water +<increase>,Statistic for Well upgrade (<increase> gets replaced with how much more maximum water capacity you get when upgrading),Maksimivesi +<increase>
+TID_WELL_UPGRADED_PRODUCTION,Water Per Hour +<increase>,Statistic for Well upgrade (<increase> gets replaced with how much more production rate of water you get when you upgrade),Vettä per tunti +<increase>
+TID_WELL_CAPACITY,Max Water <number>,Statistic for Well (<number> gets replaced with maximum water capacity number),Maksimivesi: <number>
+TID_WELL_PRODUCTION,Water Per Hour <number>,Statistic for Well (<number> gets replaced with production speed of water),Vettä per tunti: <number>
+TID_APPLE_TREE_UPGRADED_CAPACITY,Max Apples +<increase>,Statistic for Apple Tree upgrade (<increase> gets replaced with how much more maximum apple capacity you get when upgrading),Maksimiomenat +<increase>
+TID_APPLE_TREE_UPGRADED_PRODUCTION,Apples Per Hour +<increase>,Statistic for Apple Tree upgrade (<increase> gets replaced with how much more production rate of apples you get when you upgrade),Omenoita per tunti +<increase>
+TID_APPLE_TREE_CAPACITY,Max Apples <number>,Statistic for Apple Tree (<number> gets replaced with maximum apple capacity number),Maksimiomenat: <number>
+TID_APPLE_TREE_PRODUCTION,Apples Per Hour <number>,Statistic for Apple Tree (<number> gets replaced with production speed of apples),Omenoita per tunti: <number>
+#,#,,#
+# Island popup window texts,#,"The popup when you tap on an Island Center that displays the different resources you get from the island, has an option to upgrade the island or refill it with resources for gems",#
+TID_ISLAND_UPGRADE_INFO,Island produces +<number>% more resources and has a higher chance for bigger objects!,Describes what you get when you upgrade an Island (<number> gets replaced with the percent upgrade you get),Saari tuottaa +<number>% lisää resursseja ja isommissa ryppäissä!
+TID_ISLAND_POPUP_RESOURCES,Resources:,Title for how many of each resource the island generates per day,Resurssit:
+TID_ISLAND_UNLOCK_POPUP_TITLE,New Island Restored!,Header for island unlock popup,Uusi Saari Avattu
+TID_ISLAND_UNLOCK_POPUP_RESOURCES,Resources:,Shown above resource icons in island unlock popup,Resurssit:
+TID_ISLAND_UNLOCK_POPUP_ANIMALS,Animals to Unlock:,Shown above animal icons in island unlock popup,Eläimet:
+TID_ISLAND_UNLOCK_POPUP_CHARACTERS_AND_GARDEN,Characters and Garden:,,Hahmot ja Puutarha:
+TID_ISLAND_UNLOCK_POPUP_CHARACTERS,Characters:,,Hahmot:
+TID_ISLAND_UNLOCK_POPUP_GARDEN,Garden:,,Puutarha:
+TID_ISLAND_UNLOCK_POPUP_BUTTON,Great!,,Hienoa!
+#,#,,#
+# Character popup window texts,#,"The popup that open when you tap on a character's portrait in the lower left corner when a character is selected, contains statistics about the character and an option to upgrade the character",#
+TID_CHARACTER_UNLOCK_BUTTON,Unlock!,"Before the player has bought the character, there's this button to Hire him/her instead of the Upgrade button",Palkkaa!
+TID_CHARACTER_UPGRADE_ANIMAL_TEAM_SLOT,New Animal Team Slot,"In some upgrade levels, the character gains an additional animal team slot.",Uusi Eläintiimipaikka
+TID_CHARACTER_UPGRADE_NEW_ABILITY,Unlocks a new Ability,"In some upgrade levels, the character gains a new harvesting ability (like fishing or mining). This texts advertises what you get when you upgrade.",Saat uuden keräyskyvyn
+TID_CHARACTER_UPGRADE_ABILITY_SPEED_AND_RESOURCE,Harvesting Speed <bonus> and a new resource,"In some upgrade levels, the characters gains a percentage increase to harvesting speed. This texts advertises what you get when you upgrade (<bonus> gets replaced with the number).",Keräämisnopeus <bonus> ja uusi resurssi
+TID_CHARACTER_UPGRADE_LOCKED,Requires <number> Islands,"Sometimes a player can't upgrade a character beacuse they don't meet the Island Count requirement for the upgrade, in this case this text gets displayed instead of the Upgrade button.",Tarvitset <number> Saarta
+TID_CHARACTER_POPUP_NEXT_LEVEL,Next level:,Title for the text box that shows what you get when you upgrade your character to the next level,Seuraava taso:
+TID_CHARACTER_POPUP_ABILITIES,Abilities:,"Title for the abilities in character popup (like basket, fishing etc). Shown when 2 or more abilities.",Kyvyt:
+TID_CHARACTER_POPUP_ABILITY,Ability:,"Title for the abilities in character popup (like basket, fishing etc). Shown when one ability.",Kyky:
+TID_CHARACTER_POPUP_EDIT_TEAM_BUTTON,Edit,Button for changing the animals in character's team.,Muokkaa
+TID_ADD_TEAM_MEMBER_BUTTON,Add,Shown on top of animal when editing animal team,Lisää
+TID_REMOVE_TEAM_MEMBER_BUTTON,Remove,Shown on top of animal when editing animal team,Poista
+TID_TEAM_EDITING_LOCKED,Not possible to remove team members while character is working!,Shown in character popup (team edit mode) when team is full and character is working.,"Tiimiläisten poistaminen ei mahdollista, kun hahmo on töissä!"
+TID_TEAM_BUTTON,Team,"Shown in character bottom bar, if teams unlocked",Tiimi
+TID_CHARACTER_POPUP_STATS_LABEL,Harvesting Stats:,Label for harvesting stats in character popup.,Keräysarvot:
+TID_ANIMAL_STAT_RING_COUNT,Ring Count,Stat for ability ring count number.,Ympyröiden Määrä
+TID_ANIMAL_STAT_RING_SIZE,Ring Size,Stat for ability ring size. Number is shown before the text.,Ympyrän Koko
+TID_ANIMAL_STAT_HARVESTING_SPEED,Harvesting Speed,Stat for harvesting speed. Number is shown before the text.,Keräysnopeus
+TID_CHARACTER_POPUP_LEVEL,Level <level> <class>,"Level and class of the character, <level> gets replaced with the level number and <class> with for example Seeker and Worker (also localized, fields are TID_CHARACTER_CLASS_SEEKER etc)",Tason <level> <class>
+TID_LOCKED_ANIMAL_TEAM_MEMBER_SLOT,Unlocks at level,Will be followed by number,Aukeaa Tasolla
+TID_EMPTY_ANIMAL_TEAM_MEMBER_SLOT,Select Animal,Shown in unlocked but empty animal team member slot,Valitse Eläin
+TID_CHARACTER_CLASS_SEEKER,Seeker,Shown in character popup. Seeker characters have an automatic collecting ability.,Etsijä
+TID_CHARACTER_CLASS_WORKER,Worker,Shown in character popup. Worker characters have a normal abilities with draggable circles.,Työläinen
+TID_CHARACTER_POPUP_ANIMAL_TEAM,Animal Team:,Label for animal team in character popup.,Eläintiimi:
+TID_CHARACTER_NAME_INPUT,Character name...,"If you empty the text box when editing a character's name, this gets displayed",Hahmon nimi...
+TID_ABILITY_BASKET,Basket,Ability name,Kori
+TID_ABILITY_FISHING,Fishing,Ability name,Kalastus
+TID_ABILITY_SICKLE,Sickle,Ability name,Sirppi
+TID_ABILITY_MAGNIFIER,Magnifier,Ability name,Suurennuslasi
+#,#,,#
+# Main UI Texts,#,"Texts present in the “Main UI”, so what you get when you start the game without going to any menus or pop-ups",#
+TID_DISCARD_RESOURCES_BUTTON_FULL,Storage Full!,"When the player can't collect resources from a character because a storage is full, this button gets shown in stead of the Collect button",Varasto täynnä!
+TID_DISCARD_RESOURCES_BUTTON_SELL,Sell Resources,"More info to the above button: When the player can't collect resources from a character because the food storage is full, this button is an option to directly sell the resources so the character can do something else",Myy resurssit
+TID_HUD_BUTTON_RETURN_HOME,Return Home,"When visiting the Clan event map or other players, this button takes you back to your own level",Palaa kotiin
+TID_BUTTON_SPEEDUP,Speedup,"Speedup an ability, construction or upgrade either with an amount of gems or for free",Hoputa
+TID_BUTTON_SPEEDUP_FREE_ABILITY,Free!,Displayed when an ability in the bottom hud is free to speed up (less than 5 seconds remaining),Ilmainen!
+TID_COST_FREE,Free!,Used everywhere to indicate that the action has no cost. For example when speeding up a building cosntruction that has less than 5 seconds remaining.,Ilmainen!
+TID_BUTTON_SPEEDING_UP,Speeding Up!,Displayed when the player tapped “Speedup” on a character ability and the speeding up is currently in progress,Hoputetaan!
+TID_HUD_BUTTON_SHOP,Shop,"A button in the bottom right to open the Shop menu (that contains animals, building and IAP purchases)",Kauppa
+TID_ABILITY_LOCKED,Unlocks at Level <level>,"When a character hasn't reached a high enough level to use an ability, the ability is greyed out in the bottom bar and this is displayed on top",Avautuu tasolla <level>
+TID_OBJECT_TIP_REPAIR,Repair,A tip displayed on top of a broken bridge when the player has enough wood or stone to fix it,Korjaa
+TID_OBJECT_TIP_UPGRADE,Upgrade,A tip displayed on top of a building when the player has enough resources to upgrade it to the next level,Päivitä
+TID_OBJECT_TIP_STORAGE_FULL,Full,"Displayed on top of resource buildings when they are full, as a tip for the player to use the resources or upgrade the storage",Täynnä
+TID_INBOX_POPUP_CLAIM_REWARD_TITLE,Claim reward:,A button in the bottom right to open the menu to join or create a clan.,Ota palkinto:
+TID_LOOT_BUTTON,Collect,A badge on top of characters after they have completed their harvesting abilities and the player can collect the loot,Kerää
+TID_LOCKED_AREA_TEXT,Unreachable,"When a player is looking at an island not yet unlocked, this gets shown in the middle of the screen",Ei pääsyä
+TID_LOCKED_AREA_DESCRIPTION,Fix bridge to gain access,More info to the above displayed underneath in smaller font,Korjaa silta päästäksesi tänne
+TID_CONSTRUCTION_COMPLETE,Complete!,"When a building or bridge has finished construction, the player taps this badge to “claim” it",Valmis!
+#,#,,#
+# Clan UI Texts,#,Texts within the Clan popup,#
+TID_CLAN_POPUP_MEMBERS_TAB,Members,Clan popup tab,Jäsenet
+TID_CLAN_POPUP_EVENT_TAB,Events,Clan popup tab,Talkoot
+TID_CLAN_POPUP_PROGRESS_TAB,Progress,Clan popup tab,Edistys
+TID_CLAN_MEMBER_LAST_ONLINE,Online: <status>,Clan online status in the clan member in clan popup. <status> is replaced with one of the following texts,Online: <status>
+TID_CLAN_MEMBER_LAST_ONLINE_TODAY,Today,Online status if player has been online today,Tänään
+TID_CLAN_MEMBER_LAST_ONLINE_DAY_AGO,Day ago,Online status if player has been online 1 day ago.,Päivä sitten
+TID_CLAN_MEMBER_LAST_ONLINE_MULTIPLE_DAYS_AGO,<days> days ago,Online status if player has been online 2 or more days ago. <days> will be replaced with a number.,<days> päivää sitten
+TID_CHAT_INPUTFIELD,Message here...,In the clan chat box this is the placeholder text before you start typing,Kirjoita tähän...
+TID_CLAN_ROLE_LEADER,Leader,Clan Member Role: Leader of the clan (only once player can be the leader),Johtaja
+TID_CLAN_ROLE_CO_LEADER,Co-Leader,Clan Member Role: Co-Leader (same rights as the leader except the ability to demote / kick the leader),Apulaisjohtaja
+TID_CLAN_ROLE_SENIOR,Senior,"Clan Member Role: Senior (no difference in rights from regular members, just a way to perhaps reward good players within the clan)",Luottojäsen
+TID_CLAN_ROLE_MEMBER,Member,Clan Member Role: Member (default option for new clan members),Jäsen
+TID_LEAVE_CLAN_CONFIRMATION,Are you sure you want to leave the Clan?,"When pressing the Leave Clan button, this message shows up as confirmation","Oletko varma, että haluat poistua Klaanista?"
+TID_EMPTY_CLAN_MEMBER_SLOT,Empty Slot,Shown in an empty member slot in Clan popup,Tyhjä paikka
+TID_HIGHEST_EVENT_SCORE,Highest:,Shown in clan popup on top of highest event score number,Korkein:
+TID_CURRENT_EVENT_SCORE,Event Score:,Shown in clan popup on top of current event score number,Talkoon pisteet:
+TID_INVITE_CLAN_MEMBER_SLOT,Invite Friend!,Shown in the first empty member slot in Clan popup,Kutsu kaveri!
+TID_CLAN_INVITE_POPUP_FULL,The clan is full! New players won't be able to join!,"When you try to invite friends but the Clan already has 8 members, this shows up.",Klaani on täynnä! Uusille pelaajille ei ole enää tilaa.
+TID_CLAN_MEMBER_MENU_KICK,Kick,Clan Member Options window: Kick the player,Anna Potkut
+TID_CLAN_MEMBER_MENU_LEAVE,Leave Clan,Clan Member Options window: Leave Clan,Poistu Klaanista
+TID_CLAN_MEMBER_MENU_PROMOTE,Promote to <role>,"Clan Member Options window: promote to one role higher, <role> replaced by one of the options above",Ylennä rooliin <role>
+TID_CLAN_MEMBER_MENU_DEMOTE,Demote to <role>,"Clan Member Options window: demote one role lower, <role> replaced by one of the options above",Alenna rooliin <role>
+TID_CLAN_MEMBER_MENU_VISIT,Visit,Clan Member Options window: visit the player's level,Käy kylässä
+TID_CLAN_MEMBER_MENU_RETURN_HOME,Return Home,Clan Member Options window: Return home (this shows up when you're in the clan event map or visiting a friend and open your own member options),Palaa kotiin
+TID_KICK_CLAN_MEMBER_CONFIRMATION,Do you really want to kick <name> from the clan?,Confirmation to kick another player from the clan (<name> replaced with the player's name),Haluatko varmasti potkia <name>:n pois Klaanista?
+TID_PROMOTE_CLAN_MEMBER_CONFIRMATION,Do you really want to promote <name> to <role>?,"Confirmation to promote a player (<name> replaced with player's name, <role> with one of the roles like TID_CLAN_ROLE_SENIOR)",Haluatko varmasti ylentää <name>:n rooliin <role>?
+TID_DEMOTE_CLAN_MEMBER_CONFIRMATION,Do you really want to demote <name> to <role>?,"Confirmation to demote a player (<name> replaced with player's name, <role> with one of the roles like TID_CLAN_ROLE_SENIOR)",Haluatko varmasti alentaa <name>:n rooliin <role>?
+TID_PROMOTE_TO_LEADER_CONFIRMATION,Do you really want to make <name> the new leader? You would no longer be the leader.,Confirmation dialog to make another player the new leader (<name> replaced with player's name),Haluatko varmasti tehdä <name>:sta johtajan? Sinä et enää olisi itse johtaja.
+TID_PLAYER_PROMOTED_TO_CLAN_ROLE,<name> promoted <subject> to <role>,"Clan chat message that gets posted after a promotion was successful (<name> is the player who did the promoting, <subject> is who got promoted and <role> is the subject's new role)",<name> ylensi <subject>:n rooliin <role>
+TID_PLAYER_DEMOTED_TO_CLAN_ROLE,<name> demoted <subject> to <role>,"Clan chat message that gets posted after a demotion was successful (<name> is the player who did the promoting, <subject> is who got promoted and <role> is the subject's new role)",<name> alensi <subject>:n rooliin <role>
+TID_WORLD_MAP_CHARACTERS_ELSEWHERE,In Other Levels:,"When you have characters that are away from your map but not in any place visible on the Clan Event (for example, map of player who has recently left the clan), there's a box in the bottom of the screen that shows those characters and this text",Muissa paikoissa:
+TID_CHAT_TIME_NOW,Now,"When a clan chat message was just posted, this text is displayed instead of how long ago it was",Nyt
+TID_CLAN_INVITE_CODE_COPY_BUTTON,Copy,Invite friends window: Button for copying the Join Code to the clipboard,Kopioi
+TID_COPY_CLAN_CODE_TIP,Copy/Paste to a message,Invite friends window: extra description for above button,Kopioi / Liitä viestiin
+TID_CLAN_CODE_TITLE,Invite Friends,Invite friends window title,Kutsu kavereita
+TID_CLAN_CODE_DESCRIPTION,Your friends will be able to join the clan with this code:,Invite friends window: description for how the join code works,Kaverisi voivat liittyä Allianssiin tällä koodilla:
+TID_CLAN_CODE_COPIED,Invite Code Copied,"After copying the code to the clipboard, this shows up",Kutsukoodi kopioitu
+TID_CLAN_INFO_DESCRIPTION_TITLE,Clan Info:,Clan Info popup: above the clan description text box (needs to include “:”),Kuvaus:
+TID_CLAN_INFO_MEMBERS_TITLE,Members:,Clan Info popup: above the clan members box (needs to incllude “:”),Jäsenet:
+TID_CLAN_INFO_MEMBERS_NAME,Name,Clan info popup: members box “Name” column title,Nimi
+TID_CLAN_INFO_MEMBERS_RANK,Rank,Clan info popup: members box “Rank” column title (or “Role”),Rooli
+TID_CLAN_POPUP_REWARDS,Rewards:,Show above the possible Clan Event rewards.,Palkinnot:
+TID_CLAN_POPUP_COLLECT_REWARD_BUTTON,Collect!,Shown above the clan event reward in a button that collects it. Localization can also mean “Take Reward” if language has no good word for collect.,Ota palkinto!
+#,#,,#
+# Animal Popup Window Texts,#,Popup that opens when you tap on an animal's portrait in the bottom left when you have an animal selected,#
+TID_ANIMAL_POPUP_EATS,Diet:,"Describes what foods the animal eats, followed by icons of the foods",Ruoka:
+TID_ANIMAL_POPUP_REWARD,Feeding reward:,Describes how much gold you get for each feeding of the animal,Syöttöpalkkio:
+TID_ANIMAL_NAME_INPUT,Animal name...,Shows up in the animal name field if while editing the name you remove all the text,Eläimen nimi...
+TID_ANIMAL_POPUP_NEXT_MEAL_TIME,Next meal in <time>,Describes when the animal is going have its next feeding (<time> replaced by for example 3h 15min),Seuraava syöttö: <time>
+#,#,,#
+# General purpose,#,,#
+TID_BUTTON_YES,Yes,Generic “Yes” displayed on a lot of buttons,Kyllä
+TID_BUTTON_NO,No,Generic “No” displayed on a lot of buttons,Ei
+TID_BUTTON_OK,OK,Generic “OK” displayed on a lot of buttons,OK
+TID_UPGRADE_LEVEL,Level <level>,Generic Level display text used in a lot of places for buildings and characters (<level> replaced by number),Taso <level>
+TID_CHAT_TIME,<time> ago,"Time display for clan chat messages (<time> replaced by the time format that uses the localizations below, in English for example 2h 15min)",<time> sitten
+TID_TIME_FORMAT_HOURS,h,Time format: hours,t
+TID_TIME_FORMAT_MINUTES,min,Time format: minutes,min
+TID_TIME_FORMAT_SECONDS,s,Time format: seconds,s
+TID_TIME_FORMAT_DAYS,d,Time format: days,pv
+TID_LOADING_SCREEN,Loading...,Loading screen message in all cases except in the very beginning when there's a FTUE text there instead,Lataa...
+TID_BUTTON_SURE,Sure!,Generic “Sure!” displayed in some buttons,Toki!
+#,#,,
+# System messages,#,,
+TID_ERROR_POPUP_SERVICE_UNAVAILABLE,Service unavailable.\nError code: <code>,When something's gone wrong with our servers. Use the “\n” for a line break after the first sentence. <code> replaced by one of our error codes that the player can give to support,Palvelu ei saatavilla. \nVikakoodi: <code>
+TID_CONNECTION_CLOSING_POPUP,Maintenance break starting in <time>,"When server maintenance is about to begin, there's a pop-up window displayed with this message",Huoltokatko alkaa <time> kuluttua
+TID_MAINTENANCE_POPUP,Maintenance Break,"When server maintenance is ongoing, the player gets this pop-up message",Huoltokatko
+TID_MAINTENANCE_POPUP_TIME,Estimated time <time>,Time estimated before server maintenance ends,Aika-arvio: <time>
+TID_UPDATE_AVAILABLE_POPUP,New update is available!,When the player must go to the App Store to update their game to the latest version,Uusi päivitys saatavilla!
+TID_UPDATE_AVAILABLE_POPUP_BUTTON,Update,Button for above,Päivitä
+TID_RESTART_REQUIRED,A restart may be required to complete this action,"The user did something that might require the game to restart in order to take effect, e.g. if a purchase requires parental approval",Tämä toiminto saattaa vaatia uudelleenkäynnistyksen
+TID_ERROR_POPUP_NO_CONNECTION,Check your internet connection and try again!,"When the game can't connect to servers (most likely because the player isn't connected to the internet), you get this message",Tarkista nettiyhteytesi ja yritä uudelleen!
+TID_ERROR_POPUP_TRY_AGAIN_BUTTON,Try Again,Button for the above message to try and reload the game,Yritä uudelleen
+TID_ERROR_POPUP_LOGIN_FAILED,Login failed!,"When login failed for some reason, you get this message",Kirjautuminen epäonnistui!
+TID_ERROR_POPUP_LOGIN_FAILED_BANNED,You have been banned!,"When the player has been banned from the game and can no longer play, you get this pop-up",Sinut on estetty pelaamasta!
+TID_ERROR_POPUP_UNABLE_TO_CONNECT,Unable to connect to the game server!,"When for some unknown reason the connection to game servers can't be made, this gets shown",Yhteys pelipalvelimeen epäonnistui!
+TID_INBOX_POPUP_TITLE,New Message,"We have an option to give gifts to individual players' “inboxes”, typically these would be given when there's been some inconvenience caused to the player. When they open the inbox (button in main UI), this is the title of that screen.",Uusi viesti
+TID_SUPPORT_MESSAGE_GENERIC_SORRY,We'd like to give you a small gift due to the recent technical issues!,Option for inbox gift message: when the servers have been down,Haluaisimme antaa sinulle pienen lahjan viimeaikaisten teknisten ongelmien vuoksi!
+TID_SUPPORT_MESSAGE_GENERIC_THANKS,Thank you! Here's a small gift for you.,Option for inbox gift message: when the player has done something that helped us (like report a bug),Kiitos! Tässä sinulle pieni lahja.
+TID_SUPPORT_MESSAGE_GENERIC_RESPONSE,"As promised, here's the compensation for you.",Option for inbox gift message: when the player gets a reward that player support has promised to them,"Kuten luvattu, tässä pieni lahja."
+TID_ACCOUNT_OVERWRITE_TITLE,Another Account Found,"When a player logs in with Apple and there's another game account found for that account, the player is asked whether they want to delete their current account and replace it with the one found with the Apple login. This is the title for that window",Toinen tili löydetty
+TID_ACCOUNT_OVERWRITE_DESCRIPTION,Do you want to load <name>'s account with <islands> Islands Unlocked?\n\nWarning: Progress of your current game will be lost!,Description for the above window. <name> will be replaced with player name and <islands> with number,Haluatko ladata <name>:n tilin missä <islands> saarta avattuna?\n\nVaroitus: Nykyinen tilisi tuhotaan!
+TID_ACCOUNT_OVERWRITE_CONFIRMATION_TITLE,Are you sure?,Title for the extra confirmation players need to give with above situation,Oletko varma?
+TID_ACCOUNT_OVERWRITE_CONFIRMATION_DESCRIPTION,Are you absolutely sure you want to delete your current account and overwrite it with <name>'s account with <islands> Islands Unlocked?,“Are you absolutely sure” text that explains the same situation as above one more time.,"Oletko aivan varma, että haluat poistaa nykyisen tilisi ja korvata sen <name>:n tilillä (<islands> saarta avattuna)?"
+TID_ACCOUNT_OVERWRITE_CONFIRMATION_HINT,Type <keyword> and press Ok to complete the action,Extra level for security so players don't accidentally delete their accounts. The played must type <keyword> to proceed,Kirjoita <keyword> ja paina OK jatkaaksesi
+TID_GEM_SHOP_IAP_PENDING,Please wait!\nTransaction is ongoing.,When a player tries to make another purchase while one is still ongoing. There should be a line break “\n” between the two sentences.,Odota!\nTapahtuma käynnissä.
+#,#,,#
+# Clan Joining Or Creation,#,,#
+TID_CLAN_POPUP_TITLE,Clans,Title for the popup,Klaanit
+TID_CLAN_POPUP_JOIN_TITLE,Join an Existing Clan,Title for joining an existing clan made by a friend or family member,Liity kaverisi Klaaniin
+TID_CLAN_POPUP_JOIN_TIP,Ask a join code from a friend or a family member,Description to ask for the code,Kysy kaveriltasi tai perheenjäseneltä liittymiskoodi
+TID_CLAN_CODE_INPUT,Enter join code...,"When the join code text field is still empty, it shows this",Syötä liittymiskoodi:
+TID_CLAN_POPUP_CREATE_TITLE,Create a New Clan,Button for creating a new clan,Luo uusi Klaani
+TID_CLAN_POPUP_CREATE_TITLE_SHORT,Create Clan,Title in the “create clan” window,Luo Klaani
+TID_CLAN_POPUP_JOIN_BUTTON,Join,Button for joining a clan once the player has entered a join code,Liity
+TID_CLAN_POPUP_CREATE_BUTTON,Create,Button that takes you to the “create clan” window,Luo
+TID_CLAN_POPUP_FIND_BUTTON,Find,Button that opens the Clan Finder window,Löydä
+TID_CLAN_POPUP_FIND_TITLE,Find a Public Clan,Title for finding a public clan with the clan finder,Löydä julkinen Klaani
+TID_CLAN_NAME_TITLE,Clan Name,Clan creation: Title for clan name text box,Klaanin nimi
+TID_CLAN_NAME_INPUT,Clan name...,Clan creation: placeholder for clan name text box,Klaanin nimi...
+TID_CLAN_DESCRIPTION_TITLE,Description,Clan creation: Title for the clan description text box,Kuvaus
+TID_CLAN_DESCRIPTION_INPUT,Clan description...,Clan creation: placeholder for clan description text box,Klaanin kuvaus...
+TID_CLAN_OPEN_TO_PUBLIC,Open to public,"Clan creation: description for checkbox to make the clan “open to public”, meaning it can be found with the Clan Finder",Julkisesti avoin
+TID_CLAN_OPEN_TO_PUBLIC_DESCRIPTION,Public Clans can be joined by other players without an invitation!,Clan creation: more info about the “open to public” option,Julkiset klaanit löytyvät hakutoiminnolla
+TID_RECEIVING_INVITE_CODE,Receiving Invite Code...,"After inputting a join code and pressing the join button, this shows up while we wait for the server to either confirm the join or not",Vastaanotetaan koodi...
+TID_CLAN_JOIN_FAILED_FULL,Join failed! Clan is full!,After pressing the Join button: clan joining failed because it's full,Liittyminen epäonnistui! Klaani on täynnä!
+TID_CLAN_JOIN_FAILED_INVALID_CODE,Join failed! Invalid or expired invite code!,After pressing the Join button: clan joining failed because the code was wrong or had expired,Liittyminen epäonnistui! Koodi on väärä tai se on mennyt vanhaksi.
+TID_CLAN_JOIN_FAILED_NO_CLAN,Join failed! Clan does not exist!,After pressing the Join button: clan joining failed because the Clan has been abandoned after the code was made,Liittyminen epäonnistui! Klaania ei ole enää olemassa.
+TID_CLAN_JOIN_FAILED_GENERIC,Join failed! (Error code <code>),After pressing the Join button: clan joining failed for some other reason,Liittyminen epäonnistui! (Virhekoodi <code>)
+TID_CLAN_POPUP_OR,Or,“Or” between different options for the main join clan window,Tai
+TID_CLAN_CREATED_POPUP_CONGRATULATIONS,Congratulations! You're now the new leader of,"Clan created: Congratulation to the player, followed by the name of the clan",Onnittelut! Olet uusi johtaja klaanissa.
+TID_CLAN_CREATED_POPUP_CODE_TIP,Use this code to invite your friends:,Clan created: Tip for the usage of the join code,Käytä tätä koodia kutsuaksesi kavereita:
+TID_CLAN_CREATED_POPUP_EXTRA_TIP,Inviting is possible also later on from the Clan Menu!,Clan created: Extra info that you can access the code later too so players don't need to write it down or something,Voit kutsua pelaajia myös myöhemmin Klaani-valikosta.
+TID_CLAN_CREATED_POPUP_TITLE,Clan Created!,Clan created: Title for the window,Klaani luotu!
+TID_CLAN_POPUP_PASTE,Paste,A “Paste” button/badge that shows up above the join code text box if there's something in the clipboard,Liitä
+TID_CLAN_INFO_JOIN,JOIN!,A Join button that's in the clan info window that opens up when the player taps on a clan in the Clan Finder,Liity!
+TID_CLAN_RECOMMENDATIONS,Here's some recommendations:,Clan Finder: Description for what the list of clans is (“our recommendations”),Tässä suosituksia:
+TID_RECOMMENDED_CLANS_TITLE,Public Clans,Clan Finder: Title for the window,Julkiset Klaanit
+TID_RECOMMENDED_CLAN_TAP_TIP,Tap for more info,Clan Finder: Text in each clan option to show more info,Lisätietoja tästä
+TID_RECOMMENDED_CLANS_LOADING,Searching Clans...,"Clan Finder: before the server has returned some clans, this gets shown",Etsimme Klaaneja...
+TID_RECOMMENDED_CLANS_NOT_FOUND,Unable to Find Suitable Clans,"Clan Finder: if no suitable clans were found, this gets shown",Yhtään sopivaa ei löytynyt
+TID_CLAN_JOIN_FAILED_NOT_OPEN,Join failed! Clan is not open anymore.,Clan Finder: error message if the player tried to join a clan that was no longer open,Liittyminen epäonnistui! Klaani ei enää ole julkinen.
+#,#,,#
+# Clan Chat system messages,#,Some automatic messages that show up in Clan chat,#
+TID_PLAYER_JOINED_CLAN,<name> joined the clan,"When a new player joined the clan, <name> replaced with the player's name",<name> liittyi Klaaniin
+TID_PLAYER_LEFT_CLAN,<name> left the clan,"When a player left the clan, <name> replaced with the player's name",<name> poistui Klaanista
+TID_PLAYER_KICKED_FROM_CLAN,<subject> was kicked from the clan by <name>,"When a player kicked another player, <name> is the kicker and <subject> who got kicked",<name> antoi <subject>:lle potkut!
+TID_CLAN_EVENT_DONE_CHAT_ITEM,<event> event completed!\n\nTop contributor: <top_contributor>.,"When a clan event was completed, this message shows what the event was (<event>), how much time was left (<remaining_time>) and who was the best player (<top_contributor>) Put two line breaks “\n\n” before the top contributor text.",Talkoot “<event>” tuli valmiiksi!\n\n Ahkerin työntekijä: <top_contributor>
+TID_CLAN_EVENT_FAILED_CHAT_ITEM,<event> event finished uncompleted! Better luck next time.,"When a clan event was failed, this gets posted in chat",Talkoot “<event>” ei tullut valmiiksi! Parempi onni ensi kerralla.
+#,#,,#
+# FTUE / Tutorial Texts,#,,#
+TID_TERMS_OF_SERVICE_POPUP_TITLE,Important,First game start disclaimer pop-up title,Tärkeää
+TID_TERMS_OF_SERVICE_POPUP,"Root Land is free to play, but you can speed up progress with in-app purchases  (you can disable this in your device settings). Tap Ok to accept our <terms_link> and <privacy_policy_link>.","First game start disclaimer main text, describes that the game is free but you can accelerate progress with money","Root Landia voi pelata ilmaiseksi, mutta voit nopeuttaa pelin kulkua pelin sisäisillä ostoksilla (jonka voit poistaa käytöstä laitteen asetuksista). Paina OK hyväksyäksesi <terms_link> ja <privacy_policy_link>."
+TID_TERMS_OF_SERVICE_POPUP_TERMS_LINK,Terms,First game start disclaimer: button that open the Terms of Service website,Käyttöehdot
+TID_TERMS_OF_SERVICE_POPUP_PRIVACY_LINK,Privacy Policy,First game start disclaimer: button that open the Privacy policy website,Yksityisyydensuoja
+TID_INTRO_WELCOME,Welcome to,"In the intro cinematic, this text is above the game logo",Tervetuloa
+TID_INTRO_STORY1,<color=#2FF85E>Root Land</color> used to be a paradise for animals,Intro cinematic first line of story text,<color=#2FF85E>Root Land</color> oli villieläinten paratiisi
+TID_INTRO_STORY2,Until one day a <color=#8A50F3>dark corruption</color> took over!,Intro cinematic second line of story text.,kunnes eräänä päivänä <color=#8A50F3>pimeä voima</color> otti vallan!
+TID_PLAYER_NAME_INPUT,Name...,Player name text box placeholder,Nimi...
+TID_NAME_INPUT_TITLE,Enter your name:,Title for the name input popup.,Kirjoita nimesi:
+TID_SELECT_CHARACTER_MUSHROOM_TUTORIAL,<name> can collect Mushrooms. Select him first!,,<name> osaa kerätä sieniä metsäsialle! Valitse hänet ensin!
+TID_SELECT_CHARACTER_THORNS_TUTORIAL,Select <name> to stars removing the thorns!,"First tutorial box text, prompting the player to select Molly.",Valitse <name> raivataksesi piikkipuskat!
+TID_SELECT_CHARACTER_GRASS_TUTORIAL,Select <name> to harvest some grass!,,Valitse <name> kerätäksesi ruohoa!
+TID_SELECT_ORDER_BOARD_TUTORIAL,Open the order board to feed the bunny!,,Avaa ilmoitustaulu syöttääksesi pupun!
+TID_DRAG_CHAMPIGNON_TUTORIAL,Pick mushrooms by dragging your basket over some!,,Kerää sieniä raahaamalla kori-ikoni sienten päälle!
+TID_DRAG_THORNS_TUTORIAL,Remove thorns by dragging the sickle over some!,First tutorial popup window where the drag functionality is demonstrated.,Raivaa piikkipuskat raahamalla sirppi-ikoni niiden päälle!
+TID_DRAG_GRASS_TUTORIAL,Harvest grass by dragging the sickle over some!,,Kerää ruohoa raahaamalla sirppi-ikoni niiden päälle!
+TID_BUTTON_OK_TUTORIAL,Got it!,Tutorial windows: “got it” or “understood”,Selvä!
+TID_TUTORIAL_SHOW_ME_BUTTON,Show Me!,"This button shows up in the tutorial in the bottom of the screen if the current target is off-screen, pressing the button will pan the camera to the target",Näytä!
+TID_CLAN_PROMO_TUTORIAL_POPUP1,Play real-time with your friends!,"After the bridge is repaired, the player is shown a full-screen popup that advertises the Clan functionality. This is the text on the top.",Pelaa samanaikaista moninpeliä kavereidesi kanssa!
+TID_CLAN_PROMO_TUTORIAL_POPUP2,Root Land is best played with others! Join a Clan to participate in Clan Events.,"More info to the above popup, should advertise the Clan events.",Root Land on parhaimmillaan muiden kanssa yhdessä! Liity Klaaniin päästäksesi yhteisiin talkoisiin.
+TID_CLAN_PROMO_POPUP1,Play real-time multiplayer with your friends!,This is the same popup as above if you press the “”join clan” button after the tutorial. Can be same text as TID_CLAN_PROMO_TUTORIAL_POPUP1,Pelaa samanaikaista moninpeliä kavereidesi kanssa!
+TID_CLAN_PROMO_POPUP2,Forming a Clan with your friends allows you to participate in co-op Clan Events!,"Same as TID_CLAN_PROMO_TUTORIAL_POPUP2, slightly more short wording.",Perustamalla Klaanin ystäviesi kanssa voitte tehdä yhteisiä talkoita!
+TID_CLAN_PROMO_POPUP_LOCKED,Make your way to the 5th island to unlock clans!,,Raivaa tiesi viidenteen saareen avataksesi klaanit!
+TID_CLAN_PROMO_TUTORIAL_YES,Sure!,Cheery “Yes” button for the above popups,Toki!
+TID_CLAN_PROMO_TUTORIAL_LATER,Later,“Later” button for the above popup if the player doesn't want to join a Clan right now,Myöhemmin
+TID_TUTORIAL_BUILD_WOOD_STORAGE,Build a <building>!,Tutorial text box that prompts the player to build a Wood Storage. <building>=TID_BUILDING_WOOD_STORAGE,Rakenna <building>!
+TID_TUTORIAL_CLAIM_WOOD_STORAGE,Finish the <building> to be able to store more wood!,Tutorial text box that prompts you to complete the building of the Wood Storage by tapping the “Complete!” button above it. <building>=TID_BUILDING_WOOD_STORAGE,Viimeistele <building> jotta saat enemmän puuta talteen!
+TID_STORE_REVIEW_POPUP,Enjoying the game? Would you like to give Root Land a star rating?,Popup that asks the player would the like to give the game a rating in the App Store,Tykkäätkö pelistä? Haluaisitko antaa Root Landsille arvostelun?
+TID_KEEP_FEEDING_TUTORIAL,Keep feeding the animals!,Additional tutorial text box that shows up sometimes to tell the player to keep feeding the animals.,Jatka eläinten syöttöä!
+TID_TUTORIAL_NEXT_BUTTON_HELP,Tap here to toggle between characters,"Tutorial box for the “Next” button, which cycles through all available characters",Paina tästä vaihtaaksesi hahmojen välillä
+#,#,,#
+# Clan Event Names,#,"Names for Clan Events. These should be very brief, give as direct an instruction as possible and end with an exclamation point",#
+TID_CLAN_EVENT_DO_ANYTHING,Do Anything!,Clan event name,Tee mitä vaan!
+TID_CLAN_EVENT_MEGA_HOGS,Feed the Mega Hogs!,Clan event name,Syötä mahtipossut!
+TID_CLAN_EVENT_GRASS,Collect Grass!,,Kerää ruohoa!
+TID_CLAN_EVENT_THORNS,Clear Thorns!,,Raivaa Piikkipuskat!
+TID_CLAN_EVENT_MEGA_THORNS,Clear Mega Thorns!,,Raivaa Jättipiikkipuskat!
+TID_CLAN_EVENT_HOGS,Feed the Hogs!,,Syötä metsäsiat!
+TID_CLAN_EVENT_RABBITS,Feed the rabbit family!,,Syötä pupuperhe!
+TID_CLAN_EVENT_HIDDEN_OBJECTS,Find Hidden Objects!,,Löydä piilotetut ruoat!
+TID_CLAN_EVENT_COLLECT_ANYTHING,Harvest Anything!,,Kerää mitä vaan!
+TID_CLAN_EVENT_CATS,Feed the Cats!,,Syötä kissat!
+TID_CLAN_EVENT_BERRIES,Harvest Berries!,,Kerää marjoja!
+TID_CLAN_EVENT_SICKLE,Use Sickle!,,Käytä sirppiä!
+TID_CLAN_EVENT_BASKET,Use Basket!,,Käytä koria!
+TID_CLAN_EVENT_MOOSE,Feed the Moose!,,Syötä hirvet!
+TID_CLAN_EVENT_STORKS,Feed the Storks!,,Syötä haikarat!
+TID_CLAN_EVENT_BEAVERS,Feed the Beavers!,,Syötä majavat!
+TID_CLAN_EVENT_MUSHROOMS,Collect Mushrooms!,,Kerää sieniä!
+TID_CLAN_EVENT_CRITTERS,Feed the Critters!,,Syötä pikkueläimet!
+#,#,,#
+# Clan Event Texts,#,"Texts in when the player is in the alliacne event map, and the “Event Summary” / “Event Reward” popup",#
+TID_NOT_PARTICIPATING_TO_CLAN_EVENT,You will be able to participate the upcoming events!,"When you join a clan and there's an event ongoing, you can't yet participate in it. Instead you get this text box in the bottom of the screen when in the event level to tell you that you will be able to join the next one.",Pääset osallistumaan seuraaviin talkoisiin!
+TID_EVENT_POPUP_CLAIM_REWARD_TITLE,Claim reward:,Title for the list of event rewards the player can now claim,Kerää palkkio:
+TID_EVENT_POPUP_REWARD_TITLE,Event reward:,Title for the list of event rewards,Talkoopalkkio:
+TID_CLAN_POPUP_UNLOCKED_EVENTS,Unlocked Events:,Shown in clan popup on top of unlocked event icons.,Avatut Talkoot:
+TID_CLAN_POPUP_UNLOCK_EVENT_TIER,Reach <rank> to unlock:,Shown in clan popup on top of locked events. <rank> will be replaced with a star icon and number.,Saavuta <rank> avataksesi:
+TID_CLAN_EVENT_POPUP_TITLE_SUCCESS,Event Completed!,Title of the “Event Summary” popup once the event has been completed,Talkoot hoidettu!
+TID_CLAN_POPUP_TOP_CONTRIBUTORS,Top Contributors:,Title for the list of players that made the most effort during the event,Kovimmat tekijät:
+TID_CLAN_POPUP_NO_CONTRIBUTORS,None,"If no one participated in the event, this is shown in the “Top Contributors” list",Ei kukaan
+TID_CLAN_POPUP_GO_TO_EVENT_BUTTON,Visit!,Button that takes your to the clan level,Vieraile!
+TID_CLAN_POPUP_RANK,Event Rank:,In clan popup's event page,Talkoon taso:
+TID_CLAN_POPUP_HIGHEST_RANK,Highest:,In clan popup's event page. Shows the all time highest rank of the clan.,Korkein:
+TID_EVENT_POPUP_FAIL,The event has ended!,"If time has run out from the event before completion, this is shown in the “Event Summary” popup",Talkoot ovat loppuneet!
+TID_EVENT_POPUP_SUCCESS,Event was completed <time> before the time limit!,"If the event was successful, this is shown in the “Event Summary” popup (<time> replaced with amount of time left when the event was completed)",Talkoot hoidettiin <time> ennen aikarajaa!
+TID_TIME_TO_NEXT_EVENT_LABEL,Next event in:,"In the clan popup, if there is no event currently happening this text tells when the next one will start",Seuraavat talkoot:
+TID_EVENT_SCORE_POPUP,Event Rank increases the goals and rewards of clan events.,Event rank info popup bigger text,Talkoon taso nostaa talkoiden tavoitetta ja palkintoja.
+TID_EVENT_SCORE_POPUP_INFO,Successful event increases Event Rank by <success_number> and failed event decreases by <fail_number>.,Event rank popup description. <success_number> is replaced with a number and a star icon. <fail_number> is also replaced with a number and star icon.,Onnistuneet talkoot antavat 1-3 tähteä ja epäonnistuneet vähentävät <fail_number> tähteä.
+TID_EVENT_SCORE_POPUP_INFO_LOW_LEVEL,Successful event increases Event Rank by <success_number>. On higher ranks failed events give minus points.,"Event rank popup description. <success_number> is replaced with a number and a star icon. On low level fail doesn't give minus points, but that part is already explained.",Onnistuneet talkoot antavat 1-3 tähteä. Korkeammilla tasoilla epäonnistuneet talkoot antavat miinuspisteitä.
+TID_CLAN_POPUP_CHAMPION_BONUS,Champion Bonus:,Clan Event champion bonus. Text will be followed by the gold icon and count.,Mestarin Bonus
+TID_CLAN_POPUP_CHARACTERS_IN_EVENT_MAP,Characters in Event Map,Shown on top of the character icons that are currently in event map.,Hahmot Klaanikartassa
+TID_CLAN_ANIMAL_NEXT_FEEDING,Next Feeding,Animals in Clan Event maps have this text in the bottom bar to tell when the next feeding time is,Seuraava ateria
+TID_CLAN_EVENT_FINISHED,Event Finished!,“Event Finished!” text in the clan UI bottom bar,Talkoot valmiit!
+TID_CLAN_EVEN_TIME,<time> Remaining,"How much time is left in the event, used in multiple places",<time> jäljellä
+TID_CLAN_POPUP_FIRST_EVENT_TIP1,Clan Event Starting Soon!,Shown in a clan popup before first event has started.,Talkoot alkavat pian!
+TID_CLAN_POPUP_FIRST_EVENT_TIP2,Players who are in the clan before event starts will be able to participate!,Shown in a clan popup before first event has started.,"Pelaajat, jotka ovat mukana ennen alkua pääsevät osallistumaan."
+#,#,,#
+# 3D Space Texts,#,,#
+TID_WORLD_SPACE_FOR_HIRE,For\nHire,"This is the text used in signs held up by characters in the map before they're hired. Needs to be really short, and have a line break “\n” between the two words",Etsin\ntöitä
+#,#,,#
+# Notifications,#,,#
+TID_CONSTRUCTION_COMPLETED_NOTIFICATION_TITLE,Construction Completed!,iOS notification is sent when a construction or upgrade has finished. This is the title line,Rakennus valmis!
+TID_CONSTRUCTION_COMPLETED_NOTIFICATION,<building_name> is ready.,"Second line for the above notification, <building_name> replaced with localized building name (like TID_BUILDING_PIG_STY)",<building_name> on valmis.
+TID_ALL_CHARACTERS_FREE_NOTIFICATION_TITLE,All characters are free!,iOS notification is sent when all characters have finished their work and can be given new tasks. This is the title line.,Kaikki hahmot ovat vapaina!
+TID_ALL_CHARACTERS_FREE_NOTIFICATION,Task completed.,Second line for the above notification.,Keräykset ovat valmiit
+TID_CLAN_EVENT_START_NOTIFICATION_TITLE,New Clan Event!,iOS notification is sent when a new Clan Event is starting. This is the title line,Uudet talkoot!
+TID_CLAN_EVENT_START_NOTIFICATION,Event is just starting.,Second line for the above notification.,Allianssin talkoot ovat alkamassa.
+#,#,,#
+# Mailman delivery lines,#,"The mailman delivers one line of dialog for each animal he delivers. Most of these are very open to creativity, and are just little flavor for the game, but a couple of them have important info about what the animal eats. I will mark those separately, the rest feel free to get creative with!",#
+#,#,,#
+# Island names,#,"Names for all the islands, displayed in the world map with the “bulletin boards” as well as in the island info popups. A lot of these names refer to the resources found in them, which is important to keep in translations as well.",#
+TID_ISLAND_1,Home Island,"The home base island, I don't think this sis actually shown in the game anywhere but it's here just in case the island need to be listed somewhere.",Kotisaari
+TID_ISLAND_2,Indigo Falls,,Sinipelto
+TID_ISLAND_3,Calming Meadow,,Rauhaniitty
+TID_ISLAND_4,Windy Hills,,Puhurivuori
+TID_ISLAND_5,Berry Patch,,Marjamaa
+TID_ISLAND_6,Fisherman's Lake,,Vonkalejärvi
+TID_ISLAND_7,Willow Rock,,Pajukivi
+TID_ISLAND_8,Rainbow Cliff,,Onnen Kallio
+TID_ISLAND_9,Forest Trail,,Luontopolku
+TID_ISLAND_10,Blueberry Hideout,,Mustikkapiilo
+TID_ISLAND_11,Stone Pit,,Louhos
+TID_ISLAND_12,Shell Shore,,Simpukkaranta
+TID_ISLAND_13,Ancient Crater,,Muinaisjärvi
+TID_ISLAND_14,Twin Pools,,Kaksoisjärvet
+TID_ISLAND_15,The Frosty End,,Routaranta
+TID_ISLAND_16,Golden Fields,,Kultaniitty
+TID_ISLAND_17,Pine Fjords,,Mäntyvuori
+TID_ISLAND_18,Mystery Island,,Salasaari
+TID_ISLAND_19,Ancient Crater,,Muinaisjärvi
+TID_ISLAND_20,Salmon Heights,,Lohivaara
+TID_ISLAND_21,Glimmering Shores,,Säihkyranta
+TID_ISLAND_22,Bramble Lake,,Tappurajärvi
+TID_ISLAND_23,Blue Lagoon,,Siniset Särkät
+TID_ISLAND_24,The Frosty End,,Routaranta
+TID_ISLAND_25,Yellow Meadow,,Keltakumpu
+#,#,,#
+# Shop item names,#,Names for different offerings in the IAP shop (last two tabs of the Build window),#
+TID_IAP_GEM_BUNCH,Bunch of Gems,“a couple of” gems,Muutama Jalokivi
+TID_IAP_GEM_TRAY,Tray of Gems,A food tray looking thing filled with gems,Kipollinen Jalokiviä
+TID_IAP_GEM_BUCKET,Bucket of Gems,A small bucket of gems,Ämpärillinen Jalokiviä
+TID_IAP_GEM_BARREL,Barrel of Gems,A bigger barrel of gems,Tynnyrillinen Jalokiviä
+TID_IAP_GEM_CART,Cart of Gems,A wheelbarrow of gems,Kärryllinen Jalokiviä
+TID_IAP_GEM_HOUSE,House of Gems,A storage house full of gems,Kontillinen Jalokiviä
+TID_SHOP_GOLD_PILE,Stack of Gold,Small amount of gold,Pino Kultaa
+TID_SHOP_GOLD_MOUNTAIN,Pile of Gold,Medium amount of gold,Läjä Kultaa
+TID_SHOP_GOLD_VASTNESS,Fortune of Gold,Large amount of gold,Omaisuus Kultaa
+TID_SHOP_WATER_BUCKET,Barrel of Water,Small amount of water,Tynnyrillinen Vettä
+TID_SHOP_WATER_BARREL,Wagon of Water,Large amount of water,Vaunullinen Vettä
+#,#,,#
+# Settings and credits,#,Settings window (gear icon in the top left),#
+TID_SETTINGS_SIWA,Sign in with Apple,"“Sign in with Apple” This button should we worded exactly according to Apple guinelines, some available here: https://gist.github.com/liamnichols/a05f3bc3d16b644a3339b8cf937991d6",Kirjaudu sisään Applella
+TID_SETTINGS_SIWA_DONE,Signed in with Apple,"Once the sign-in has been done, this is displayed in its place. This is not officially mandated by apple so you can translate it yourself",Apple-kirjautuminen kunnossa
+TID_SETTINGS_SIWA_ADDITIONAL,Keep your account safe! Signing in with Apple also lets you share your progress across all your devices.,Explanation to what the sign-in gives the player,Turvaa tilisi! Kirjautumalla sisään Applella voit myös pelata samalla tilillä monella laitteella.
+TID_SETTINGS_MUSIC,Music,Settings option: music,Musiikki
+TID_SETTINGS_SOUND_EFFECTS,Sound Effects,Settings option: sound effects,Ääniefektit
+TID_SETTINGS_CREDITS,Credits,Opens the Credits window,Tekijät
+TID_SETTINGS_PRIVACY_POLICY,Privacy Policy,Opens a website with Privacy policy,Yksityisyydensuoja
+TID_SETTINGS_TERMS_OF_SERVICE,Terms Of Service,Opens a website with Terms of service,Käyttöehdot
+TID_NAME_CHANGE_POPUP_TITLE,Change Name,“Change name” popup title,Vaihda nimeä
+TID_PLAYER_NAME_CHANGE_NOTE,Note: You won't be able to change your name again for a while!,Note to the player that names can't be changed many times in rapid succession,Huomio: nimeä ei voi vaihtaa nopeasti montaa kertaa peräkkäin!
+TID_PLAYER_NAME_CHANGE_COOLDOWN,You have changed your name recently and can't change it again yet!,If the name was recently changed there's a cooldown period,Olet hiljattain vaihtanut nimesi etkä voi vielä tehdä sitä uudestaan!
+TID_CREDITS_SECOND_LEAP_TEAM,Second Leap Team,"Credits: name of the team (Second Leap obviously doesn't get translated, but the word “team” can be)",Second Leap -tiimi
+TID_CREDITS_DESIGN,Design,Credits: Design title,Suunnittelu
+TID_CREDITS_GAME_ART,Art,Credits: Art title,Grafiikka
+TID_CREDITS_GAME_CODE,Game Code,Credits: Game Code title,Peliohjelmointi
+TID_CREDITS_SERVER_CODE,Server Code,Credits: Server Code title,Serveriohjelmointi
+TID_CREDITS_AUDIO,Sound Design and Music,Credits: Sound Design and music title,Äänisuunnittelu ja musiikki
+TID_DEFAULT_PLAYER_NAME,Player,Default name for the player if their own name didn't go through,Pelaaja
+TID_PLAYER_AUTO_NAME_POPUP,Name wasn't accepted and was replaced with a default one! You can  change it later on from the Settings Menu.,Popup for if the player inputs a name during the initial name entry and it wasn't accepted,Yrittämääsi nimeä ei hyväksytty ja se korvaattiin oletusnimellä! Voit vaihtaa sen myöhemmin asetuksista.
+TID_NAME_FAIL_POPUP,Name was not accepted!,Popup for if the player inputs a name in the settings menu and it wasn't accepted,Nimi ei kelvannut!
+#,#,,#
+# Animal species names,#,"“Species names” for animals. This is different for every animal in the game (except beavers who are all the same species). This is only displayed in the animal info popup, and is meant as a minor flavor thing and to drive the collectability aspect of the animals. These are about half-and-half real and made up species names, and note that the species names should never use real life locations (ie. for example “European Beaver” shouldn't be used so we use “Common Beaver” instead)",#
+TID_SPECIES_WILD_HOG,Wild Hog,Hog names are all made up. This is a “regular” hog,Villipossu
+TID_SPECIES_MINIATURE_HOG,Miniature Hog,Small hog,Minipossu
+TID_SPECIES_FOREST_BOAR,Forest Boar,Tusked hog,Metsäkarju
+TID_SPECIES_RAZORBACK,Razorback Hog,Hog with hair on the back,Tukkasika
+TID_SPECIES_MEGA_HOG,Mega Hog,Big hog,Mahtisika
+TID_SPECIES_BEAVER,Common Beaver,Beavers are all just “common beaver” because there's really no different species of beaver in the real world,Perusmajava
+TID_SPECIES_WESTERN_MOOSE,Western Moose,Real,Läntinen Hirvi
+TID_SPECIES_EASTERN_MOOSE,Eastern Moose,Real,Itäinen Hirvi
+TID_SPECIES_WHITE_STORK,White Stork,Real,Kattohaikara
+TID_SPECIES_BLACK_NECKED_STORK,Black-necked Stork,Real,Satulahaikara
+TID_SPECIES_VIOLET_STORK,Violet Stork,"Not real, the stork is violet that doesn't really match to any real species",Violetti haikara
+TID_SPECIES_COMMON_CRANE,Common Crane,Real,Kurki
+TID_SPECIES_SANDHILL_CRANE,Sandhill Crane,Real,Hietakurki
+TID_SPECIES_RED_CROWNED_CRANE,Red-crowned Crane,Real,Kukkulakurki
+TID_SPECIES_BROWN_BEAR,Brown Bear,Real,Ruskeakarhu
+TID_SPECIES_BLACK_BEAR,Black Bear,Real,Mustakarhu
+TID_SPECIES_RABBIT,Cottontail Rabbit,All rabbit names except this one are not real and more just named after their color schemes.,Pumpulihäntäkaniini
+TID_SPECIES_RABBIT_TAN,Tan Rabbit,"Not real, brown rabbit",Ruskea rusakko
+TID_SPECIES_RABBIT_GRAY_LOP,Lowland Lop,"Not real, gray with loppy ears",Alankojänö
+TID_SPECIES_RABBIT_GRAY,Lowland Hare,"Not real, gray with regular ears",Alankorusakko
+TID_SPECIES_RABBIT_SILVER,Silver Rabbit,"Not real, silver",Hopeakani
+TID_SPECIES_RABBIT_BIG,Giant Lop,"Not real, big rabbit with loppy ears",Jättijänö
+TID_SPECIES_RABBIT_SABLE,Sable Hare,"Not real, black and brown",Mustajänis
+TID_SPECIES_RABBIT_WHITE_SMALL,Mountain Lop,"Not real, white with loppy ears",Vuoristokani
+TID_SPECIES_RABBIT_WHITE,Mountain Hare,"Not real, white with regular ears",Vuoristorusakko
+TID_SPECIES_RABBIT_CINNAMON,Cinnamon Rabbit,"Not real, cinnamon color",Kanelikani
+TID_SPECIES_HARBOR_SEAL,Harbor Seal,Real,Kirjohylje
+TID_SPECIES_WALRUS,Walrus,Real,Mursu
+TID_SPECIES_RINGED_SEAL,Ringed Seal,Real,Norppa
+TID_SPECIES_FUR_SEAL,Fur Seal,Real,Merikarhu
+TID_SPECIES_SEA_LION,Sea Lion,Real,Merileijona
+TID_SPECIES_FOREST_CAT,Forest Cat,"Cat names are made up with some reference to real cat breeds, this first one should just be “Forest cat”",Metsäkissa
+TID_SPECIES_NORWEGIAN_CAT,Fjord Cat,"Kind of like a “norwegian forest cat”, replaced norway with fjord",Vuonokissa
+TID_SPECIES_BLOND_CAT,Tundra Cat,"Light colored cat, makes sense to give some arctic name",Tundrakissa
+TID_SPECIES_LYNX_CAT,Long-tailed Lynx,Looks a lot like a lynx except if has a long tail,Ilves
+TID_SPECIES_BLACK_CAT,Black Forest Cat,Black cat,Mustakissa
+TID_SPECIES_CAPERCAILLIE,Western Capercaillie,Real,Metso
+TID_SPECIES_BLACK_GROUSE,Black Grouse,Real,Teeri
+TID_SPECIES_PTARMIGAN,Willow Ptarmigan,Real,Riekko
+TID_SPECIES_PHEASANT,Ring-necked Pheasant,Real,Fasaani
+TID_SPECIES_PEACOCK,Peafowl,Real,Riikinkukko
+TID_SPECIES_SQUIRREL,Red Squirrel,Real,Orava
+TID_SPECIES_GUINEAPIG,Guinea Pig,Just “Guinea pig” is fine,Marsu
+TID_SPECIES_MALLARD,Mallard,Real,Sinisorsa
+TID_SPECIES_FROG,Green Toad,"Importantly toad, not frog",Vihreärupikonna
+#,#,,#
+# New,#,,#
+TID_CHARACTER_POPUP_CHARACTER_DOESNT_TRAVEL,This character doesn't travel to Clan Events!,Shown in character popup for seeker type of characters.,Tämä hahmo ei matkusta klaanitehtäviin!
+TID_GRANMA_POPUP_RESOURCES,Resources,Shown in granma popup,Resurssit
+TID_SPECIAL_ABILITY_INFO_POPUP,This character automatically gathers these resources:,When buying a seeker character. Description of the ability info popup (above resource icons).,Tämä hahmo kerää automaattisesti näitä resursseja:
+TID_HARVEST_POPUP_TITLE,Gather:,,Kerää:
+TID_ACCOUNT_DESTROY_TITLE,DESTROY YOUR GAME ACCOUNT PERMANENTLY?,,HALUATKO POISTAA TILISI PYSYVÄSTI?
+TID_DESTROY_ACCOUNT_DESCRIPTION,You won't be able to access the account anymore and you'll lose all the purchased items and resources.,,Et pääse poiston jälkeen tiliin enää käsiksi ja menetät kaiken ostetun sisällön ja resurssit.
+TID_ACCOUNT_DESTROY_CONFIRMATION_TITLE,Are you sure?,Title for the extra confirmation players need to give with above situation,Oletko varma?
+TID_ACCOUNT_DESTROY_CONFIRMATION_DESCRIPTION,Are you absolutely sure you want to delete your current account? You won't be able to access it ever again.,,Haluatko varmasti tuhota tilisi? Tilin palauttaminen ei ole tämän jälkeen mahdollista.
+TID_ACCOUNT_DESTROY_CONFIRMATION_HINT,Type <keyword> and press Ok to complete the action,Extra level for security so players don't accidentally delete their accounts. The played must type <keyword> to proceed,Kirjoita <keyword> ja paina OK jatkaaksesi
+TID_SETTINGS_DESTROY_ACCOUNT,Destroy Account,Button label (destroys the game account),Poista tili
+TID_SETTINGS_MORE,More,Button in the settings menu that opens some additional settings.,Lisää
+TID_NOTIFICATION_PERMISSION_POPUP,Would you like to be notified when the bridge repair completes?,Popup that is showed after player has started upgrading fourth bridge. Tapping yes allows notifications for the game. Use a term that makes it clear that this is related to phone notifications.,"Haluaisitko saada notifikaation, kun sillan korjaus tulee valmiiksi?"
+TID_SHOP_ANIMALS_TAB,Animals,Shop category tab: “Animals”.,Eläimet
+TID_SHOP_GARDEN_TAB,Garden,Shop category tab: “Garden”. Contains buildings such as Well and Farm. Also contains plants such as Apple Tree.,Puutarha
+TID_SHOP_CHARACTERS_TAB,Characters,Shop category tab: “Characters”,Hahmot
+TID_BUTTON_PURCHASE_ANIMAL,Unlock!,Shown in animal purchasing popup button (on top of the cost).,Hanki!
+TID_CLAIM_ISLAND_BUTTON,Restore,Shown on top of Island Center building when the island can be claimed,Avaa Saari
+TID_CLEAR_THORNS,Clear Thorns,Shown in main hud when player has an island to clear.,Raivaa Piikkipuskat
+TID_CLEAR_MEGA_THORN,Remove Mega Thorn,Shown in main hud when player has an island with mega thorn.,Raivaa Jättipiikkipuska
+TID_CONSTRUCTION_COMPLETED,Construction Completed,Shown in main hud when a construction is ready.,Rakennus tehty
+TID_RESTORE_ISLAND,Restore Island,Shown in main hud when and island can be restored.,Avaa Saari
+TID_REPAIR_BRIDGE,Repair Bridge,Shown in main hud when a bridge can be repaired,Korjaa Silta
+TID_SPEECH_BUBBLE_TUTORIAL_WALK_IN,OMG! I have to clear these thorns and get the animals back!,Starting character speech bublle right after the intro.,Herran pieksut! Minun täytyy raivata piikkipuskat ja saada eläimet takaisin!
+TID_ANIMAL_REQUEST_REWARD,Reward:,Shown in animal bottom hud above gold icon and number.,Palkinto:
+TID_COMPLETE_ANIMAL_REQUEST_BUTTON,Complete!,Shown in animal bottom hud when the request can be completed,Valmis!
+TID_ISLAND_COUNT_ONE,Island,Island count shown in main hud. Number 1 is shown before the text.,Saari
+TID_ISLAND_COUNT_MULTIPLE,Islands,Island count shown in main hud. Number (2 or higher) is shown before the text.,Saarta
+TID_BUILDING_FARM,Farm,,Pelto
+TID_FARM_PLANT_BUTTON,Plant!,,Istuta!
+TID_FARM_PLANT_POPUP_TITLE,Plant:,,Istuta:
+TID_FARM_UPGRADE_UNLOCK,Additional resource and a farming slot,,Uusi resurssi ja istutuspaikka
+TID_FARM_POPUP_COLLECT,Collect,,Kerää
+TID_CHARACTER_WORKING,Working!,Shown on bottom hud when character is working,Hommissa!
+TID_BUILDING_ORDER_BOARD,Order Board,,Ilmoitustaulu
+TID_REQUESTS_POPUP_TITLE,Requests:,,Pyynnöt:
+TID_ANIMAL_COUNT_ONE,Animal,Animal count shown in main hud. Number 1 is shown before the text.,Eläin
+TID_ANIMAL_COUNT_MULTIPLE,Animals,Animal count shown in main hud. Number (2 or higher) is shown before the text.,Eläintä
+TID_REMOVE_WITH_ANIMALS_BUTTON,Remove,Button label that is shown on top of object that can be removed with animals.,Raivaa
+TID_REQUIRES_ANIMALS_POPUP,Requires <number> Animals,Shown in confirmation popup when removing an object with animals. “<number>” is replaced with animal count.,Tarvitset <number> Eläintä
+TID_REMOVE_WITH_ANIMALS_REWARD,Reward:,,Palkinto:
+TID_APPLE_TREE,Apple Tree,Name for Apple Tree that can be purchased from shop.,Omppupuu
+TID_CLAN_POPUP_ROSTER_TITLE,Roster:,,Jäsenet:
+TID_ANIMAL_GOAT,Goat,,Vuohi
+TID_SPECIES_ANGORA_GOAT,Angora Goat,,Angoravuohi
+TID_SPECIES_BLACK_GOAT,Black Goat,,Mustavuohi
+TID_SPECIES_ROOT_GOAT,Root Goat,,Juurivuohi
+TID_SPECIES_FROG_KING,Monarch Toad,,Hallitsijakonna
+TID_SPECIES_SUN_MOOSE,Sun Moose,,Aurinkohirvi
+TID_SPECIES_MOON_MOOSE,Moon Moose,,Kuuhirvi
+TID_SPECIES_ROOT_MOOSE,Root Moose,,Juurihirvi
+TID_SPECIES_FROG_RED,Red Toad,,Punainen rupikonna
+TID_ANIMAL_DUCK,Duck,,Ankka
+TID_SPECIES_MANDARIN_DUCK,Mandarin Duck,,Mandariinisorsa
+TID_CHARACTER_POPUP_UNLOCKED_RESOURCES,Unlocked Resources:,,Resurssit:
+TID_CHARACTER_POPUP_AUTOMATIC_HARVESTING,Automatic harvesting,,Itsenäinen kerääjä
+TID_CHARACTER_POPUP_STAT_RESOURCES_UNLOCKED,Resources Unlocked,,Resursseja:
+TID_ABILITY_PITCHFORK,Pitchfork,,Hiilihanko
+TID_ABILITY_MOWER,Mower,,Leikkuri
+TID_ABILITY_BOATING,Boating,,Veneily
+TID_INTRO_STORY_LATER,Later...,,Myöhemmin...
+TID_INTRO_STORY_MOLLY_LINE1,Gosh! Look at all these Thorns! They're killing the nature!,,Jumpe! Hirvittävän paljon tappuroita! Ne kuihduttavat luonnon!
+TID_INTRO_STORY_MOLLY_LINE2,"Let's clear them out, save the nature and bring back the animals!",,"Niitetään ne, pelastetaan luonto ja tuodaan eläimet takaisin!"
+TID_INTRO_STORY_MOLLY_NAME,Molly:,,Molly:
+TID_SETTINGS_SIWG,Sign in with Google,“Sign in with Google” This button should we worded exactly according to Google guidelines,Kirjaudu sisään Googlella
+TID_SETTINGS_SIWG_DONE,Signed in with Google,"Once the sign-in has been done, this is displayed in its place. This is not officially mandated by google so you can translate it yourself",Google-kirjautuminen kunnossa
+TID_SETTINGS_SIWG_ADDITIONAL,Keep your account safe! Signing in with Google also lets you share your progress across all your devices.,Explanation to what the sign-in gives the player,Turvaa tilisi! Kirjautumalla sisään Googlella voit myös pelata samalla tilillä monella laitteella.
+TID_SPECIES_RABBIT_MOON,Moon Rabbit,,Kuukani
+TID_ANIMAL_MUSK_OX,Musk Ox,,Myskihärkä
+TID_SPECIES_MUSK_OX,Musk Ox,,Myskihärkä
+TID_PRODUCTION_BUILDING_POPUP_WELL_INFO,Use water from the well to refill your islands with resources!,"In stead of an upgrade box, the well info popup has a label that explains what it does",Kaivovettä käytetään saarien täyttämiseen uusilla resursseilla!
+TID_ROOT_PASS_ACTIVE,<pass> active!\n <time> remaining,<pass> will be replaced with Root Pass (localized). <time> will be replaced with the remaining time (for example 3h 35min).,<pass> aktiivinen!\n <time> jäljellä
+TID_ROOT_PASS,Root Pass,,Root Passi
+TID_ROOT_PASS_30_DAYS,30 Day Root Pass,,30 Päivän Root Passi
+TID_ROOT_PASS_INACTIVE,Buy a <pass> to unlock a 4th slot and increase all rewards by 50%!,,Osta <pass> avataksesi neljäs pyyntö ja nostaaksesi palkintoja 50%.
+TID_ORDER_BOARD_REQUIREMENT_WITH_LEVEL,Requires level <level> <requirement>,"Shown in order board, if some require can't be collected or produced. <level> is replaced with number and <requirement> with text such as “Fisherman” or “Farm”.",Tarvitset: tason <level> <requirement>
+TID_ORDER_BOARD_REQUIREMENT,Requires <requirement>,"Shown in order board, if some require can't be collected or produced. <requirement> is replaced with text such as “Fisherman” or “Farm”.",Tarvitset: <requirement>
+TID_FILL_ISLAND_TUTORIAL,Water can be used to fill islands!,,Vettä voi käyttää saarien täyttämiseen!
+TID_SPECIAL_ABILITY_INFO_POPUP_TITLE,Ability Info,When buying a seeker character. Title of the ability info popup,Tietoja hahmosta
+TID_GET_ROOT_PASS_BUTTON,Get Root Pass,,Hanki Root Passi
+TID_ROOT_PASS_POPUP_30DAY,30 Day,Root Pass Popup above the title,30 Päivän
+TID_ROOT_PASS_POPUP_TITLE,Root Pass,Root Pass Popup title,Root Passi
+TID_ROOT_PASS_POPUP_EXTRA_GOLD,Extra Gold,Root Pass Popup “promo picture” text,Extra-kultaa
+TID_ROOT_PASS_POPUP_NEW_SLOT,New Slot!,Root Pass Popup “promo picture” text,Lisäpyyntö!
+TID_ROOT_PASS_POPUP_DESCRIPTION,Buy a 30-day Root Pass to gain a 4th slot for the order board and increase all order board rewards by 50%!,Root Pass Popup description text,30 päivän Root Passilla saat neljännen pyynnön ilmoitustauluun ja kaikki syöttöpalkkiot nousevat 50%!
+TID_ROOT_PASS_ACTIVATED_VFX,Root Pass Activated!,"After buying a root pass, this text is in the vfx",Root Passi hommattu!
+TID_ROOT_PASS_EXTENDED_VFX,Root Pass Extended!,"After buying a root pass extension, this text is in the vfx",Root Passia jatkettu!
+TID_RESPAWN_TUTORIAL_POPUP_TITLE,Resources also grow back over time,Tutorial popup that has an animation showing that plants grow back over time,Resurssit kasvavat takaisin myös ajan kanssa itsekseen
+TID_ISLAND_POPUP_INFO_GROWING,Growing resources!,Shown in island popup when water is not yet unlocked. Informs player about resource spawning.,Resursseja kasvaa!
+TID_RESOURCE_NAME_GEMS,Gems,,Jalokivet
+TID_RESOURCE_NAME_GOLD,Gold,,Kulta
+TID_RESOURCE_NAME_PERCH,Perch,,Ahven
+TID_RESOURCE_NAME_BERRY,Redberry,,Punamarja
+TID_RESOURCE_NAME_CHANTERELLE,Chanterelle,,Kanttarelli
+TID_RESOURCE_NAME_CEP,Cep,,Tatti
+TID_RESOURCE_NAME_CHAMPIGNON,Champignon,,Herkkusieni
+TID_RESOURCE_NAME_LUPIN,Indigo,,Sinikko
+TID_RESOURCE_NAME_GRASS,Grass,,Ruoho
+TID_RESOURCE_NAME_HAY,Hay,,Heinä
+TID_RESOURCE_NAME_APPLE,Apple,,Omena
+TID_RESOURCE_NAME_WILLOW,Willow,,Paju
+TID_RESOURCE_NAME_BRANCH,Branch,,Oksa
+TID_RESOURCE_NAME_ALPINEBELL,Bell,,Kello
+TID_RESOURCE_NAME_BLUEBERRY,Blueberry,,Mustikka
+TID_RESOURCE_NAME_PIKE,Pike,,Hauki
+TID_RESOURCE_NAME_DANDELION,Dandelion,,Voikukka
+TID_RESOURCE_NAME_AMANITA,Amanita,,Kärpässieni
+TID_RESOURCE_NAME_WAXCAP,Waxcap,,Kummitussieni
+TID_RESOURCE_NAME_HERRING,Herring,,Silakka
+TID_RESOURCE_NAME_SALMON,Salmon,,Lohi
+TID_RESOURCE_NAME_FLOUNDER,Flounder,,Kampela
+TID_RESOURCE_NAME_SCALLOP,Scallop,,Simpukka
+TID_RESOURCE_NAME_CLOUDBERRY,Cloudberry,,Lakka
+TID_RESOURCE_NAME_BETULA,Betula,,Vaivaiskoivu
+TID_RESOURCE_NAME_SNOWBERRY,Snowberry,,Lumimarja
+TID_RESOURCE_NAME_LETTUCE,Lettuce,,Salaatti
+TID_RESOURCE_NAME_DUCKWEED,Duckweed,,Sorsanlimaska
+TID_RESOURCE_NAME_INSECT,Bug,,Ötökkä
+TID_RESOURCE_NAME_CARROT,Carrot,,Porkkana
+TID_RESOURCE_NAME_POTATO,Potato,,Peruna
+TID_RESOURCE_NAME_PUMPKIN,Pumpkin,,Kurpitsa
+TID_RESOURCE_NAME_GOLDENMUSHROOM,Goldcap,,Kultaheltta
+TID_RESOURCE_NAME_FERN,Fern,,Saniainen
+TID_RESOURCE_NAME_PARSLEY,Parsley,,Koiranputki
+TID_RESOURCE_NAME_STRAWBERRY,Strawberry,,Mansikka
+TID_RESOURCE_NAME_GRAPE,Grape,,Rypäle
+TID_RESOURCE_NAME_WATERMELON,Melon,,Meloni
+TID_LOADING_DOWNLOADING_CONTENT,Loading content,"After the intro video, if there's still downloading left, this is shown above the download bar",Ladataan sisältöä
+TID_UPDATE_AVAILABLE_POPUP_ADDITIONAL_INFO,"If the new version is not yet available in your store, please wait a few moments and try again!",Below update button in new version popup,"Jos uusi versio ei vielä ole saatavilla kaupassasi, odota hetki ja yritä sitten uudestaan!"
